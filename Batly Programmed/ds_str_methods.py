@@ -1,5 +1,6 @@
 # This is a string object
 name = 'Swaroop'
+print(type(name))
 
 if name.startswith('Swa'):
     print('Yes, the string starts with "Swa"')

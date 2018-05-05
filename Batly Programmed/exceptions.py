@@ -1,12 +1,4 @@
-# -*- coding: utf-8 -*-
 
-"""
-requests.exceptions
-~~~~~~~~~~~~~~~~~~~
-
-This module contains the set of Requests' exceptions.
-"""
-from .packages.urllib3.exceptions import HTTPError as BaseHTTPError
 
 
 class RequestException(IOError):
@@ -89,7 +81,7 @@ class ChunkedEncodingError(RequestException):
     """The server declared chunked encoding but sent an invalid chunk."""
 
 
-class ContentDecodingError(RequestException, BaseHTTPError):
+class ContentDecodingError(RequestException):
     """Failed to decode response content"""
 
 

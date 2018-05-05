@@ -1,7 +1,7 @@
 try:
     x=int(input("enter a num"))
-    if(x>10000):
-        print("enter less than 10000")
+    if(x>50):
+        print("enter less than 50")
     sum=0
     a=x
     while (a>0):

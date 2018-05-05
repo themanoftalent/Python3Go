@@ -1,4 +1,4 @@
-x = 50
+x = 50 #gloabal
 
 
 def func(x):

@@ -2,8 +2,11 @@
 # to indicate start and end of tuple
 # even though parentheses are optional.
 # Explicit is better than implicit.
+
 zoo = ('python', 'elephant', 'penguin')
+print(type(zoo))
 print('Number of animals in the zoo is', len(zoo))
+
 
 new_zoo = 'monkey', 'camel', zoo    # parentheses not required but are a good idea
 print('Number of cages in the new zoo is', len(new_zoo))

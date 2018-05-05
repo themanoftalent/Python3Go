@@ -1,6 +1,7 @@
 print('Simple Assignment')
 shoplist = ['apple', 'mango', 'carrot', 'banana']
 # mylist is just another name pointing to the same object!
+print(type(shoplist))
 mylist = shoplist
 
 # I purchased the first item, so I remove it from the list

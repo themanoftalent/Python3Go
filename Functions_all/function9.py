@@ -1,3 +1,4 @@
+#kwags
 def total(a=5, *numbers, **phonebook):
     print('a', a)
     

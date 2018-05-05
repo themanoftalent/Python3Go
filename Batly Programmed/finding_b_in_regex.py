@@ -11,3 +11,4 @@ So she bought some better butter, To make the bitter butter better.
 my_pattern=r'\bB\w+' #b boundry sinir
 
 print(re.findall(my_pattern,text,flags=re.IGNORECASE))
+

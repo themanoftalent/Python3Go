@@ -5,7 +5,7 @@ class Person:
     def say_hi(self):
         print('Hello, my name is', self.name)
 
-p = Person('Swaroop')
+p = Person('Akif')
 p.say_hi()
 # The previous 2 lines can also be written as
 # Person().say_hi()
